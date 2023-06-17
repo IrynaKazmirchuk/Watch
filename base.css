@@ -80,10 +80,9 @@ h6 {
   border: transparent;
 }
 .btn:hover {
-transform: translateY(-5px);
 border-radius: 15%;
 font-size: 38px;
-color:rgb(143, 149, 228)
+color:rgb(215, 217, 247)
 }
 a {
   text-decoration: none;
@@ -95,7 +94,8 @@ a {
   display: flex;
   margin-bottom: 211px;
 }
-input {
+.block {
+  padding: 13px 27px 31px 28px;
   width: 143px;
   height: 82px;
   left: 413px;
