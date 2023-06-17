@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  font-family: "League Spartan", sans-serif;
+}
+.tint {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  background: #f5f2f2;
+}
+.tint-top {
+  padding: 0px 72px 0px 0px;
+  background-color: #dfdedd;
+}
+.container {
+  padding-bottom: 142px;
+  max-width: 1137px;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 2px solid #d4a374;
+  border-right: 2px solid #d4a374;
+  background: #eee;
+}
+.product-page {
+  max-width: 1137px;
+  display: flex;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "League Spartan";
+  font-weight: 300;
+  font-size: 250px;
+  line-height: 230px;
+  color: #272727;
+}
+h6 {
+  margin-top: 100px;
+  margin-bottom: 53px;
+  font-family: "League Spartan";
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 186%;
+  color: #161515;
+}
+.desc {
+  margin-top: 43px;
+  margin-bottom: 61px;
+  font-family: "League Spartan";
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 155%;
+  color: #161515;
+}
+.btn {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 26px 74px 35px 73px;
+  width: 278px;
+  height: 82px;
+  left: 135px;
+  top: 650px;
+  background: #161515;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 29px;
+  color: #ffffff;
+  transition: .3s all ease-in-out;
+  border: transparent;
+}
+.btn:hover {
+transform: translateY(-5px);
+border-radius: 15%;
+font-size: 38px;
+color:rgb(143, 149, 228)
+}
+a {
+  text-decoration: none;
+}
+.pictures {
+  max-width: 408px;
+}
+.buttons {
+  display: flex;
+  margin-bottom: 211px;
+}
+input {
+  width: 143px;
+  height: 82px;
+  left: 413px;
+  top: 650px;
+  background: #ffffff;
+  box-shadow: 0px 0px 28px rgba(214, 214, 214, 0.25);
+  font-family: "League Spartan";
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 186%;
+  text-align: center;
+  color: #272727;
+  border: 1px solid #fff;
+}

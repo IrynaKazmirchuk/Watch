@@ -1,0 +1,108 @@
+.models {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 454px 0px 454px;
+}
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "League Spartan";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "League Spartan";
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 112.5%;
+  text-align: center;
+  color: #000000;
+}
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 186%;
+  text-align: center;
+  color: #000000;
+}
+.tint-one {
+  margin-top: 84px;
+  margin-bottom: 67px;
+  padding: 110px 60px 110px 71px;
+  width: 417px;
+  height: 630px;
+  left: 511px;
+  top: 1130px;
+  background-color: #e2dfdf;
+}
+.tint-secondary {
+  margin-top: 85px;
+  margin-bottom: 67px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  width: 496px;
+  height: 630px;
+  left: 472px;
+  top: 2150px;
+  background: #e2dfdf;
+}
+.product {
+  margin-top: 17px;
+  margin-bottom: 0;
+  width: 532px;
+  height: 194px;
+  text-align: center;
+}
+.product:hover {
+  color: blue;
+}
+p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 515px;
+  height: 231px;
+  left: 464px;
+  top: 3256px;
+  font-family: "League Spartan";
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 170%;
+  text-align: center;
+  color: #161515;
+}
+p a:hover {
+  color: blue;
+}
+h2 {
+  position: relative;
+  margin-top: 105px;
+  margin-bottom: 58px;
+  font-family: "League Spartan";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+h2::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  display: block;
+  height: 1px;
+  background: #000;
+  width: calc(100% - 85%);
+  left: 50%;
+  transform: translateX(-50%);
+}
