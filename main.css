@@ -41,9 +41,6 @@ h5 {
   margin-bottom: 67px;
   padding: 110px 60px 110px 71px;
   width: 417px;
-  height: 630px;
-  left: 511px;
-  top: 1130px;
   background-color: #e2dfdf;
 }
 .tint-secondary {
@@ -52,20 +49,20 @@ h5 {
   padding-top: 65px;
   padding-bottom: 65px;
   width: 496px;
-  height: 630px;
-  left: 472px;
-  top: 2150px;
   background: #e2dfdf;
 }
 .product {
+  display: inline-block;
+  margin-right: 0;
+  align-items: center;
   margin-top: 17px;
   margin-bottom: 0;
-  width: 532px;
+  min-width: 532px;
   height: 194px;
   text-align: center;
 }
 .product:hover {
-  color: blue;
+  color: rgb(37, 139, 185);
 }
 p {
   margin-left: auto;
@@ -81,8 +78,13 @@ p {
   text-align: center;
   color: #161515;
 }
+p a {
+  color: #bb8b5d;
+  text-decoration: underline;
+  font-weight: 500;
+}
 p a:hover {
-  color: blue;
+  color: rgb(37, 139, 185);
 }
 h2 {
   position: relative;
